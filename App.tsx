@@ -22,7 +22,7 @@ import { PROJECTS } from "./constants";
 import { Language, Project } from "./types";
 
 const App: React.FC = () => {
-  const [lang, setLang] = useState<Language>("vi");
+  const [lang, setLang] = useState<Language>("en");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [viewAllProjects, setViewAllProjects] = useState<boolean>(false);
   const { scrollYProgress } = useScroll();
@@ -263,7 +263,7 @@ const App: React.FC = () => {
                         <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse" />
                         <span className="text-sky-400 text-[10px] md:text-[13px] font-black uppercase tracking-[0.4em]">
                           {lang === "en"
-                            ? "Fullstack Architect"
+                            ? "Fullstack Engineer"
                             : "Kiến trúc sư Fullstack"}
                         </span>
                       </motion.div>
@@ -272,7 +272,7 @@ const App: React.FC = () => {
                         variants={containerVars}
                         initial="before"
                         animate="after"
-                        className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-10 tracking-tighter leading-[0.85] text-white flex flex-col lg:items-start items-center uppercase"
+                        className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-10 tracking-tighter leading-[0.85] text-white flex flex-col lg:items-start items-center uppercase"
                       >
                         <div className="text-gradient flex flex-wrap items-center justify-center lg:justify-start drop-shadow-[0_0_30px_rgba(56,189,248,0.2)]">
                           {splitName("HO VAN THANH PHUONG").map((l, i) => (
