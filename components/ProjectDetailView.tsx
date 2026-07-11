@@ -1380,7 +1380,7 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({
           ) : null}
         </div>
       </div>
-
+      {/* ff */}
       {/* Core Project Metrics Container */}
       <div className="relative overflow-hidden p-4 md:p-8 rounded-2xl bg-slate-900/40 border border-white/10 backdrop-blur-md shadow-[0_12px_40px_rgba(0,0,0,0.2)] my-4 md:my-6 hover:border-white/20 transition-all duration-300">
         <div className="absolute top-0 right-0 w-32 h-32 bg-sky-500/[0.01] rounded-full blur-2xl pointer-events-none" />
