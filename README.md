@@ -19,7 +19,7 @@ Welcome to my GitHub profile.
 - [![Portfolio/Website](https://img.shields.io/badge/Portfolio-%2312100E.svg?&style=for-the-badge&logo=website&logoColor=white)]
 - Email: thanhphuong212002@gmail.com
 
-## 🚧 Skills
+## 🚧 Skill
 
 - \*\*Programming language: Javascript
 - **Framework:** ReactJS , NodeJs,MongoDB, ExpressJS
